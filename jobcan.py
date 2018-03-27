@@ -19,7 +19,8 @@ driver.find_element_by_name('client_id').send_keys("div")
 driver.find_element_by_name('email').send_keys(email)
 driver.find_element_by_name('password').send_keys(myPass)
 
-# driver.find_element_by_id('adit-button-work-start').click()
+driver.find_element_by_id('adit-button-work-start').click()
+
 
 # 入力待ち
 cprint("Please press the 'Enteer_Key' as soon as it is confirmed", "yellow")
@@ -31,5 +32,5 @@ webbrowser.open("https://master.tech-camp.in/admin/chat_messages")
 webbrowser.open("https://calendar.google.com/calendar/r")
 
 
-# driver.close()
-# driver.quit()
+driver.close()
+driver.quit()
