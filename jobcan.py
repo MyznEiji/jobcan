@@ -4,6 +4,8 @@ Googleでtextと検索するプログラム
 from selenium import webdriver
 import webbrowser
 from termcolor import cprint
+import subprocess
+
 
 # Password関連を参照
 file = open('myPass.txt', 'r')
@@ -30,6 +32,9 @@ input_waiting = input()
 # 遠隔とグーグルカレンダーを開く
 webbrowser.open("https://master.tech-camp.in/admin/chat_messages")
 webbrowser.open("https://calendar.google.com/calendar/r")
+
+#  slackを開く
+subprocess.run(["open -a slack"], shell=True)
 
 
 driver.close()
