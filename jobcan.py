@@ -8,7 +8,7 @@ import subprocess
 
 
 # Password関連を参照
-file = open('myPass.txt', 'r')
+file = open('/Users/miyazonoeiji/projects/python/jobcan/myPass.txt', 'r')
 myPassList = file.read().split(',')
 email = myPassList[0]
 myPass = myPassList[1]
