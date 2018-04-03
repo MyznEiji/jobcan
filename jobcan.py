@@ -35,6 +35,7 @@ webbrowser.open("https://calendar.google.com/calendar/r")
 
 #  slackを開く
 subprocess.run(["open -a slack"], shell=True)
+webbrowser.open("https://di-v.slack.com/messages/C286UJESF/")
 
 
 driver.close()
