@@ -34,7 +34,7 @@ webbrowser.open("https://master.tech-camp.in/admin/chat_messages")
 webbrowser.open("https://calendar.google.com/calendar/r")
 
 #  slackを開く
-subprocess.run(["open -a slack"], shell=True)
+#subprocess.run(["open -a slack"], shell=True)
 webbrowser.open("https://di-v.slack.com/messages/C286UJESF/")
 
 
