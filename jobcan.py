@@ -37,6 +37,8 @@ webbrowser.open("https://calendar.google.com/calendar/r")
 #subprocess.run(["open -a slack"], shell=True)
 webbrowser.open("https://di-v.slack.com/messages/C286UJESF/")
 
+# 渋谷現場管理ページ
+webbrowser.open("https://master.tech-camp.in/admin/users/classrooms")
 
 driver.close()
 driver.quit()
